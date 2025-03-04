@@ -1,0 +1,1071 @@
+2025-02-25T13:13:08.738+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268152 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T13:13:08.740+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T13:13:08.781+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T13:13:08.782+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T13:13:09.678+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T13:13:09.691+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T13:13:09.692+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T13:13:09.742+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T13:13:09.743+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 960 ms
+2025-02-25T13:13:09.830+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T13:13:10.050+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T13:13:10.086+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T13:13:10.092+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.734 seconds (process running for 2.287)
+2025-02-25T13:13:22.548+09:00  INFO 268152 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25T13:13:22.549+09:00  INFO 268152 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-25T13:13:22.551+09:00  INFO 268152 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-25T13:13:23.646+09:00  INFO 268152 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (1 addition, 0 deletions, 2 modifications)
+2025-02-25T13:13:23.649+09:00  INFO 268152 --- [boot02_Component_Bean] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T13:13:24.292+09:00  INFO 268152 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T13:13:24.350+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268152 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T13:13:24.350+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T13:13:24.517+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T13:13:24.517+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T13:13:24.518+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T13:13:24.548+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T13:13:24.549+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2025-02-25T13:13:24.563+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T13:13:24.603+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T13:13:24.611+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T13:13:24.614+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.294 seconds (process running for 16.809)
+2025-02-25T13:13:24.616+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T13:17:28.570+09:00  INFO 268152 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-25T13:17:28.571+09:00  INFO 268152 --- [boot02_Component_Bean] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T13:17:29.621+09:00  INFO 268152 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T13:17:29.727+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268152 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T13:17:29.728+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T13:17:29.982+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T13:17:29.984+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T13:17:29.984+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T13:17:30.009+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T13:17:30.010+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 275 ms
+2025-02-25T13:17:30.023+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T13:17:30.062+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T13:17:30.073+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T13:17:30.078+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.402 seconds (process running for 262.273)
+2025-02-25T13:17:30.079+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T13:22:46.173+09:00  INFO 268152 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-25T13:22:46.175+09:00  INFO 268152 --- [boot02_Component_Bean] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T13:22:46.757+09:00  INFO 268152 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T13:22:46.821+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268152 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T13:22:46.822+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T13:22:46.955+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T13:22:46.956+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T13:22:46.956+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T13:22:46.975+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T13:22:46.975+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 152 ms
+2025-02-25T13:22:46.985+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T13:22:47.008+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T13:22:47.014+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T13:22:47.016+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.215 seconds (process running for 579.211)
+2025-02-25T13:22:47.017+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T13:31:07.713+09:00  INFO 268152 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-25T13:31:07.714+09:00  INFO 268152 --- [boot02_Component_Bean] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T13:31:08.436+09:00  INFO 268152 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T13:31:08.509+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268152 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T13:31:08.510+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T13:31:08.667+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T13:31:08.668+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T13:31:08.668+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T13:31:08.686+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T13:31:08.687+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 175 ms
+2025-02-25T13:31:08.700+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T13:31:08.731+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T13:31:08.742+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T13:31:08.746+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.266 seconds (process running for 1080.94)
+2025-02-25T13:31:08.746+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T13:32:26.264+09:00  INFO 268152 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-25T13:32:26.265+09:00  INFO 268152 --- [boot02_Component_Bean] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T13:32:27.013+09:00  INFO 268152 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T13:32:27.063+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268152 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T13:32:27.063+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T13:32:27.171+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T13:32:27.172+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T13:32:27.172+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T13:32:27.189+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T13:32:27.189+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 124 ms
+2025-02-25T13:32:27.204+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T13:32:27.224+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T13:32:27.229+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T13:32:27.231+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.187 seconds (process running for 1159.426)
+2025-02-25T13:32:27.231+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T13:45:48.493+09:00  INFO 268152 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-02-25T13:45:48.495+09:00  INFO 268152 --- [boot02_Component_Bean] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T13:45:49.134+09:00  INFO 268152 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T13:45:49.190+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268152 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T13:45:49.190+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T13:45:49.323+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T13:45:49.323+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T13:45:49.324+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T13:45:49.342+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T13:45:49.342+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 147 ms
+2025-02-25T13:45:49.353+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T13:45:49.380+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T13:45:49.388+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T13:45:49.390+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.228 seconds (process running for 1961.585)
+2025-02-25T13:45:49.390+09:00  INFO 268152 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T14:04:56.767+09:00  INFO 268152 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:04:57.459+09:00  INFO 268152 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:05:02.350+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 264260 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:05:02.353+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:05:02.417+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:05:02.418+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:05:03.428+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:05:03.440+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:05:03.441+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:05:03.483+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:05:03.484+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1065 ms
+2025-02-25T14:05:03.578+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:05:03.822+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:05:03.856+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:05:03.862+09:00  INFO 264260 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 2.065 seconds (process running for 2.948)
+2025-02-25T14:05:04.826+09:00  INFO 264260 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25T14:05:04.826+09:00  INFO 264260 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-25T14:05:04.827+09:00  INFO 264260 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-25T14:05:23.969+09:00  INFO 264260 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:05:24.736+09:00  INFO 264260 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:05:28.832+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 296920 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:05:28.834+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:05:28.881+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:05:28.882+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:05:29.831+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:05:29.845+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:05:29.845+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:05:29.897+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:05:29.897+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1015 ms
+2025-02-25T14:05:29.994+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:05:30.229+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:05:30.263+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:05:30.271+09:00  INFO 296920 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.944 seconds (process running for 2.589)
+2025-02-25T14:05:37.615+09:00  INFO 296920 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25T14:05:37.616+09:00  INFO 296920 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-25T14:05:37.617+09:00  INFO 296920 --- [boot02_Component_Bean] [http-nio-8802-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-25T14:09:57.145+09:00  INFO 296920 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:09:57.816+09:00  INFO 296920 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:10:01.602+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 305492 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:10:01.605+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:10:01.659+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:10:01.659+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:10:02.491+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:10:02.501+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:10:02.501+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:10:02.547+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:10:02.548+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 888 ms
+2025-02-25T14:10:02.595+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:10:02.643+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:10:02.866+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:10:02.900+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:10:02.910+09:00  INFO 305492 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.783 seconds (process running for 2.338)
+2025-02-25T14:10:32.593+09:00  INFO 305492 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:10:33.224+09:00  INFO 305492 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:10:37.045+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 292280 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:10:37.048+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:10:37.092+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:10:37.093+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:10:37.944+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:10:37.954+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:10:37.954+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:10:38.004+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:10:38.005+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 912 ms
+2025-02-25T14:10:38.090+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:10:38.345+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:10:38.375+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:10:38.383+09:00  INFO 292280 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.727 seconds (process running for 2.312)
+2025-02-25T14:11:00.103+09:00  INFO 292280 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:11:00.775+09:00  INFO 292280 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:11:04.568+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 296788 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:11:04.571+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:11:04.619+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:11:04.619+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:11:05.447+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:11:05.457+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:11:05.459+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:11:05.504+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:11:05.504+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 884 ms
+2025-02-25T14:11:05.549+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:11:05.599+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:11:05.848+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:11:05.878+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:11:05.889+09:00  INFO 296788 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.784 seconds (process running for 2.436)
+2025-02-25T14:12:50.864+09:00  INFO 296788 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:12:51.556+09:00  INFO 296788 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:12:55.467+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 269824 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:12:55.469+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:12:55.524+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:12:55.525+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:12:56.414+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:12:56.430+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:12:56.431+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:12:56.469+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:12:56.470+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 945 ms
+2025-02-25T14:12:56.515+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:12:56.516+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:12:56.516+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:12:56.557+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:12:56.785+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:12:56.825+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:12:56.837+09:00  INFO 269824 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.845 seconds (process running for 2.622)
+2025-02-25T14:20:24.279+09:00  INFO 269824 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:20:24.981+09:00  INFO 269824 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:20:28.937+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 299276 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:20:28.938+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:20:28.979+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:20:28.979+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:20:29.927+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:20:29.940+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:20:29.941+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:20:29.990+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:20:29.990+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
+2025-02-25T14:20:30.038+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:20:30.039+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:20:30.039+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:20:30.081+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:20:30.323+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:20:30.349+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:20:30.357+09:00  INFO 299276 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.836 seconds (process running for 2.404)
+2025-02-25T14:20:48.375+09:00  INFO 299276 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:20:49.042+09:00  INFO 299276 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:20:52.861+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 263520 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:20:52.864+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:20:52.911+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:20:52.911+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:20:53.845+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:20:53.857+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:20:53.858+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:20:53.913+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:20:53.914+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1002 ms
+2025-02-25T14:20:53.963+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:20:53.963+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:20:53.963+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:20:54.005+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:20:54.254+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:20:54.295+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:20:54.305+09:00  INFO 263520 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.846 seconds (process running for 2.449)
+2025-02-25T14:22:23.284+09:00  INFO 263520 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:22:24.119+09:00  INFO 263520 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:22:28.543+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 276520 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:22:28.547+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:22:28.595+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:22:28.596+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:22:29.514+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:22:29.529+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:22:29.530+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:22:29.587+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:22:29.588+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 992 ms
+2025-02-25T14:22:29.638+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:22:29.639+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:22:29.639+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:22:29.639+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:22:29.688+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:22:29.892+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:22:29.918+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:22:29.925+09:00  INFO 276520 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.854 seconds (process running for 2.478)
+2025-02-25T14:24:35.486+09:00  INFO 276520 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:24:36.209+09:00  INFO 276520 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:24:39.834+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 305892 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:24:39.837+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:24:39.889+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:24:39.890+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:24:40.860+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:24:40.875+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:24:40.876+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:24:40.932+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:24:40.933+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2025-02-25T14:24:40.992+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:24:40.994+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:24:40.994+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:24:40.995+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:24:41.044+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:24:41.281+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:24:41.307+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:24:41.315+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.917 seconds (process running for 2.521)
+2025-02-25T14:24:41.318+09:00  INFO 305892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T14:27:20.918+09:00  INFO 305892 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:27:21.609+09:00  INFO 305892 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:27:25.323+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 292892 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:27:25.324+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:27:25.369+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:27:25.370+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:27:26.389+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:27:26.401+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:27:26.401+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:27:26.446+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:27:26.446+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1075 ms
+2025-02-25T14:27:26.505+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:27:26.506+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:27:26.506+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:27:26.506+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:27:26.561+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:27:26.807+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:27:26.837+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:27:26.844+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.902 seconds (process running for 2.443)
+2025-02-25T14:27:26.847+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T14:27:26.847+09:00  INFO 292892 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T14:28:34.005+09:00  INFO 292892 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:28:34.672+09:00  INFO 292892 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:28:38.338+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 296752 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:28:38.339+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:28:38.385+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:28:38.385+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:28:39.274+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:28:39.285+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:28:39.285+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:28:39.322+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:28:39.322+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 937 ms
+2025-02-25T14:28:39.374+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:28:39.387+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:28:39.388+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:28:39.388+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:28:39.430+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:28:39.686+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:28:39.721+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:28:39.729+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.79 seconds (process running for 2.354)
+2025-02-25T14:28:39.732+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T14:28:39.732+09:00  INFO 296752 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T14:30:46.172+09:00  INFO 296752 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:30:46.930+09:00  INFO 296752 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:30:50.676+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 305108 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:30:50.679+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:30:50.739+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:30:50.739+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:30:51.649+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:30:51.660+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:30:51.660+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:30:51.706+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:30:51.707+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 966 ms
+2025-02-25T14:30:51.759+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:30:51.760+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T14:30:51.766+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:30:51.766+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:30:51.767+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:30:51.817+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:30:52.060+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:30:52.091+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:30:52.101+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.862 seconds (process running for 2.475)
+2025-02-25T14:30:52.103+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T14:30:52.104+09:00  INFO 305108 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T14:33:40.172+09:00  INFO 305108 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:33:40.884+09:00  INFO 305108 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:33:44.566+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 292656 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:33:44.568+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:33:44.623+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:33:44.623+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:33:45.574+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:33:45.587+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:33:45.587+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:33:45.629+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:33:45.629+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1004 ms
+2025-02-25T14:33:45.683+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:33:45.683+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T14:33:45.688+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:33:45.688+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:33:45.689+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:33:45.691+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T14:33:45.733+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:33:45.948+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:33:45.976+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:33:45.984+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.862 seconds (process running for 2.468)
+2025-02-25T14:33:45.986+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T14:33:45.986+09:00  INFO 292656 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T14:35:14.801+09:00  INFO 292656 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:35:15.481+09:00  INFO 292656 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:35:19.303+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 276552 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:35:19.307+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:35:19.352+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:35:19.353+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:35:20.229+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:35:20.242+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:35:20.242+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:35:20.288+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:35:20.289+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2025-02-25T14:35:20.343+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:35:20.344+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T14:35:20.348+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:35:20.349+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:35:20.349+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:35:20.352+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T14:35:20.353+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T14:35:20.398+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:35:20.651+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:35:20.686+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:35:20.692+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.794 seconds (process running for 2.378)
+2025-02-25T14:35:20.695+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T14:35:20.696+09:00  INFO 276552 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T14:36:29.107+09:00  INFO 276552 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:36:29.803+09:00  INFO 276552 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:36:33.681+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 283808 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:36:33.684+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:36:33.731+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:36:33.731+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:36:34.625+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:36:34.640+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:36:34.640+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:36:34.685+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:36:34.686+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 954 ms
+2025-02-25T14:36:34.738+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:36:34.738+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T14:36:34.742+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:36:34.743+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:36:34.743+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:36:34.745+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T14:36:34.746+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T14:36:34.746+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T14:36:34.786+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:36:35.014+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:36:35.043+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:36:35.050+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.809 seconds (process running for 2.447)
+2025-02-25T14:36:35.055+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T14:36:35.055+09:00  INFO 283808 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T14:43:32.023+09:00  INFO 283808 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T14:43:32.728+09:00  INFO 283808 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T14:43:36.335+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 289960 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T14:43:36.338+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T14:43:36.383+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T14:43:36.383+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T14:43:37.358+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T14:43:37.370+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T14:43:37.370+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T14:43:37.419+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T14:43:37.419+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2025-02-25T14:43:37.468+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T14:43:37.468+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T14:43:37.472+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T14:43:37.473+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T14:43:37.473+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T14:43:37.476+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T14:43:37.477+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T14:43:37.477+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T14:43:37.527+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T14:43:37.804+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T14:43:37.840+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T14:43:37.849+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.92 seconds (process running for 2.482)
+2025-02-25T14:43:37.853+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T14:43:37.854+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T14:43:37.854+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T14:43:37.854+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T14:43:37.854+09:00  INFO 289960 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:02:45.518+09:00  INFO 289960 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:02:46.194+09:00  INFO 289960 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:02:49.928+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 267336 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:02:49.930+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:02:49.986+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:02:49.986+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:02:50.983+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:02:50.997+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:02:50.998+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:02:51.044+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:02:51.044+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1057 ms
+2025-02-25T15:02:51.095+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:02:51.096+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:02:51.096+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:02:51.100+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:02:51.101+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:02:51.101+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:02:51.102+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:02:51.103+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:02:51.103+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:02:51.148+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:02:51.377+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:02:51.404+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:02:51.413+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.9 seconds (process running for 2.5)
+2025-02-25T15:02:51.416+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:02:51.418+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:02:51.418+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:02:51.419+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:02:51.419+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:03:42.046+09:00  INFO 267336 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-25T15:03:42.049+09:00  INFO 267336 --- [boot02_Component_Bean] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:03:42.743+09:00  INFO 267336 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:03:42.801+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 267336 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:03:42.801+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:03:42.960+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:03:42.961+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:03:42.961+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:03:42.981+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:03:42.981+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 178 ms
+2025-02-25T15:03:42.987+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:03:42.988+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:03:42.988+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:03:42.989+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:03:42.989+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:03:42.989+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:03:42.990+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:03:42.991+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:03:42.991+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:03:43.004+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:03:43.041+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:03:43.050+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:03:43.053+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.282 seconds (process running for 54.139)
+2025-02-25T15:03:43.053+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:03:43.054+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:03:43.054+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:03:43.054+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:03:43.054+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:03:43.055+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:05:08.042+09:00  INFO 267336 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-02-25T15:05:08.043+09:00  INFO 267336 --- [boot02_Component_Bean] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:05:08.781+09:00  INFO 267336 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:05:08.843+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 267336 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:05:08.843+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:05:09.005+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:05:09.005+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:05:09.006+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:05:09.034+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:05:09.035+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
+2025-02-25T15:05:09.038+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:05:09.039+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:05:09.039+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:05:09.040+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:05:09.040+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:05:09.040+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:05:09.041+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:05:09.042+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:05:09.042+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:05:09.051+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:05:09.080+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:05:09.086+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:05:09.090+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.27 seconds (process running for 140.176)
+2025-02-25T15:05:09.090+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:05:09.090+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:05:09.090+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:05:09.090+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:05:09.090+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:05:09.091+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:05:10.517+09:00  INFO 267336 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (2 additions, 0 deletions, 4 modifications)
+2025-02-25T15:05:10.518+09:00  INFO 267336 --- [boot02_Component_Bean] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:05:11.195+09:00  INFO 267336 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:05:11.252+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 267336 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:05:11.252+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:05:11.413+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:05:11.413+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:05:11.414+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:05:11.434+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:05:11.434+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 180 ms
+2025-02-25T15:05:11.438+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:05:11.440+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:05:11.441+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:05:11.441+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:05:11.442+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:05:11.442+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:05:11.443+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:05:11.443+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:05:11.443+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:05:11.451+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:05:11.477+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:05:11.483+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:05:11.486+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.258 seconds (process running for 142.573)
+2025-02-25T15:05:11.487+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:05:11.487+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:05:11.487+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:05:11.487+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:05:11.487+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:05:11.488+09:00  INFO 267336 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:06:27.042+09:00  INFO 267336 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:06:27.783+09:00  INFO 267336 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:06:31.523+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 292200 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:06:31.526+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:06:31.572+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:06:31.573+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:06:32.512+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:06:32.526+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:06:32.526+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:06:32.570+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:06:32.571+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 998 ms
+2025-02-25T15:06:32.622+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:06:32.623+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:06:32.624+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:06:32.630+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:06:32.631+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:06:32.632+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:06:32.634+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:06:32.634+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:06:32.635+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:06:32.638+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:06:32.687+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:06:32.921+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:06:32.951+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:06:32.961+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.87 seconds (process running for 2.461)
+2025-02-25T15:06:32.964+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:06:32.965+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:06:32.965+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:06:32.966+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:06:32.966+09:00  INFO 292200 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:08:52.706+09:00  INFO 292200 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:08:53.349+09:00  INFO 292200 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:08:56.857+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 296296 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:08:56.861+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:08:56.907+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:08:56.907+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:08:57.783+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:08:57.792+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:08:57.793+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:08:57.836+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:08:57.837+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 928 ms
+2025-02-25T15:08:57.881+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:08:57.882+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:08:57.883+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:08:57.886+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:08:57.886+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:08:57.887+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:08:57.889+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:08:57.890+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:08:57.890+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:08:57.892+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:08:57.941+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:08:58.194+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:08:58.231+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:08:58.240+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.805 seconds (process running for 2.386)
+2025-02-25T15:08:58.244+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:08:58.245+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:08:58.246+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:08:58.246+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T15:08:58.247+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:08:58.247+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:10:39.571+09:00  INFO 296296 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-02-25T15:10:39.575+09:00  INFO 296296 --- [boot02_Component_Bean] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:10:40.235+09:00  INFO 296296 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:10:40.300+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 296296 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:10:40.300+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:10:40.512+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:10:40.513+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:10:40.513+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:10:40.537+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:10:40.537+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 235 ms
+2025-02-25T15:10:40.543+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:10:40.544+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:10:40.545+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:10:40.545+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:10:40.547+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:10:40.547+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:10:40.548+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:10:40.549+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:10:40.549+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:10:40.549+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:10:40.563+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:10:40.605+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:10:40.612+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:10:40.616+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.347 seconds (process running for 104.763)
+2025-02-25T15:10:40.617+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:10:40.617+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:10:40.618+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:10:40.618+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:10:40.618+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:10:40.618+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T15:10:40.619+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:10:42.031+09:00  INFO 296296 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-02-25T15:10:42.032+09:00  INFO 296296 --- [boot02_Component_Bean] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:10:42.640+09:00  INFO 296296 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:10:42.692+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 296296 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:10:42.693+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:10:42.845+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:10:42.846+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:10:42.846+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:10:42.872+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:10:42.873+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2025-02-25T15:10:42.877+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:10:42.878+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:10:42.878+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:10:42.879+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:10:42.880+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:10:42.880+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:10:42.881+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:10:42.882+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:10:42.882+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:10:42.882+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:10:42.894+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:10:42.929+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:10:42.942+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:10:42.946+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.274 seconds (process running for 107.093)
+2025-02-25T15:10:42.947+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:10:42.947+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:10:42.947+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:10:42.948+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T15:10:42.948+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:10:42.948+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:10:42.949+09:00  INFO 296296 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:12:12.167+09:00  INFO 296296 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:12:13.731+09:00  INFO 296296 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:25:09.865+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 288836 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:25:09.867+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:25:09.914+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:25:09.914+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:25:11.005+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:25:11.018+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:25:11.018+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:25:11.058+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:25:11.059+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1145 ms
+2025-02-25T15:25:11.111+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:25:11.111+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:25:11.113+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:25:11.116+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:25:11.116+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:25:11.116+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:25:11.117+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:25:11.118+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:25:11.119+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:25:11.121+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:25:11.166+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:25:11.437+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:25:11.471+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:25:11.478+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 2.07 seconds (process running for 2.783)
+2025-02-25T15:25:11.481+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:25:11.481+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:25:11.481+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:25:11.481+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T15:25:11.481+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T15:25:11.481+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=null, age=0)
+2025-02-25T15:25:11.485+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:25:11.485+09:00  INFO 288836 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:26:14.959+09:00  INFO 288836 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:26:15.643+09:00  INFO 288836 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:26:19.533+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 277080 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:26:19.536+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:26:19.594+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:26:19.595+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:26:20.519+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:26:20.533+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:26:20.533+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:26:20.578+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:26:20.579+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 982 ms
+2025-02-25T15:26:20.627+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:26:20.628+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:26:20.628+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:26:20.632+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:26:20.633+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:26:20.633+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:26:20.634+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:26:20.634+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:26:20.635+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:26:20.637+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:26:20.685+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:26:20.922+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:26:20.959+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:26:20.967+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.892 seconds (process running for 2.505)
+2025-02-25T15:26:20.970+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:26:20.971+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:26:20.971+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:26:20.971+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T15:26:20.971+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T15:26:20.971+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T15:26:20.972+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:26:20.972+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:29:01.393+09:00  INFO 277080 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-02-25T15:29:01.397+09:00  INFO 277080 --- [boot02_Component_Bean] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:29:02.018+09:00  INFO 277080 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:29:02.099+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 277080 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:29:02.099+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:29:02.299+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:29:02.300+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:29:02.300+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:29:02.336+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:29:02.337+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 235 ms
+2025-02-25T15:29:02.343+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:29:02.344+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:29:02.345+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:29:02.346+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:29:02.347+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:29:02.347+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:29:02.349+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:29:02.349+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:29:02.349+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:29:02.351+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:29:02.364+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:29:02.408+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:29:02.414+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:29:02.419+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.358 seconds (process running for 163.958)
+2025-02-25T15:29:02.420+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:29:02.420+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:29:02.421+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:29:02.421+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:29:02.422+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:29:02.422+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T15:29:02.422+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T15:29:02.422+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T15:29:02.422+09:00  INFO 277080 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T15:41:02.674+09:00  INFO 277080 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:41:03.412+09:00  INFO 277080 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:41:08.099+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268460 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:41:08.101+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:41:08.157+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T15:41:08.157+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T15:41:09.265+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:41:09.279+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:41:09.280+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:41:09.325+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:41:09.326+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1168 ms
+2025-02-25T15:41:09.376+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : CarComponent ...
+2025-02-25T15:41:09.377+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:41:09.378+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:41:09.378+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:41:09.383+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:41:09.383+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:41:09.384+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:41:09.385+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:41:09.386+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:41:09.386+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:41:09.387+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:41:09.440+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:41:09.689+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:41:09.716+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:41:09.722+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 2.215 seconds (process running for 2.923)
+2025-02-25T15:41:09.726+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:41:09.726+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:41:09.726+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:41:09.726+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T15:41:09.726+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T15:41:09.726+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T15:41:09.727+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:41:09.727+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:41:09.727+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent start
+2025-02-25T15:41:09.727+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : CarComponent:CarComponent(model=BMW, price=5000)
+2025-02-25T15:41:09.727+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : start()....
+2025-02-25T15:45:04.219+09:00  INFO 268460 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-25T15:45:04.223+09:00  INFO 268460 --- [boot02_Component_Bean] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T15:45:04.894+09:00  INFO 268460 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T15:45:04.969+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 268460 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T15:45:04.969+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T15:45:05.174+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T15:45:05.174+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T15:45:05.174+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T15:45:05.193+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T15:45:05.193+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 220 ms
+2025-02-25T15:45:05.199+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : CarComponent ...
+2025-02-25T15:45:05.201+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T15:45:05.201+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T15:45:05.201+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T15:45:05.202+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T15:45:05.202+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T15:45:05.202+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T15:45:05.203+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T15:45:05.204+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T15:45:05.204+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T15:45:05.205+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T15:45:05.218+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T15:45:05.253+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T15:45:05.262+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T15:45:05.266+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.324 seconds (process running for 238.467)
+2025-02-25T15:45:05.268+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T15:45:05.268+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T15:45:05.268+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent start
+2025-02-25T15:45:05.268+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : CarComponent:CarComponent(model=BMW, price=5000)
+2025-02-25T15:45:05.269+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : start()....
+2025-02-25T15:45:05.269+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T15:45:05.269+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T15:45:05.269+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T15:45:05.269+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T15:45:05.269+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T15:45:05.269+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T15:45:05.270+09:00  INFO 268460 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T16:12:51.915+09:00  INFO 268460 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T16:12:52.561+09:00  INFO 268460 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T16:12:58.016+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 298508 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T16:12:58.019+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T16:12:58.079+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T16:12:58.080+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T16:12:59.243+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T16:12:59.258+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T16:12:59.258+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T16:12:59.308+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T16:12:59.308+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1227 ms
+2025-02-25T16:12:59.373+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : CarComponent ...
+2025-02-25T16:12:59.383+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T16:12:59.386+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T16:12:59.386+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T16:12:59.389+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T16:12:59.389+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T16:12:59.391+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T16:12:59.392+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T16:12:59.393+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T16:12:59.393+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T16:12:59.394+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T16:12:59.467+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T16:12:59.798+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T16:12:59.834+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T16:12:59.845+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 2.289 seconds (process running for 2.998)
+2025-02-25T16:12:59.849+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T16:12:59.850+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T16:12:59.852+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent start
+2025-02-25T16:12:59.852+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : CarComponent:CarComponent(model=BMW, price=5000)
+2025-02-25T16:12:59.852+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : start()....
+2025-02-25T16:12:59.853+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T16:12:59.853+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T16:12:59.853+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T16:12:59.853+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T16:12:59.853+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T16:12:59.853+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T16:12:59.853+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : insert()....
+2025-02-25T16:12:59.854+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:12:59.857+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : insert()....
+2025-02-25T16:12:59.857+09:00  INFO 298508 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:13:40.777+09:00  INFO 298508 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T16:13:41.444+09:00  INFO 298508 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T16:13:45.385+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 263540 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T16:13:45.387+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T16:13:45.429+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T16:13:45.429+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T16:13:46.376+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T16:13:46.389+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T16:13:46.389+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T16:13:46.429+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T16:13:46.430+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1000 ms
+2025-02-25T16:13:46.480+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : CarComponent ...
+2025-02-25T16:13:46.487+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T16:13:46.488+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T16:13:46.490+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T16:13:46.491+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T16:13:46.492+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T16:13:46.492+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T16:13:46.493+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T16:13:46.494+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T16:13:46.494+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T16:13:46.495+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T16:13:46.547+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T16:13:46.785+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T16:13:46.812+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T16:13:46.818+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.843 seconds (process running for 2.463)
+2025-02-25T16:13:46.822+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T16:13:46.822+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T16:13:46.823+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T16:13:46.823+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T16:13:46.823+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T16:13:46.823+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T16:13:46.823+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : insert()....
+2025-02-25T16:13:46.823+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:13:46.825+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : insert()....
+2025-02-25T16:13:46.825+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:13:46.826+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : result:0
+2025-02-25T16:13:46.826+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T16:13:46.826+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T16:13:46.826+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent start
+2025-02-25T16:13:46.826+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : CarComponent:CarComponent(model=BMW, price=5000)
+2025-02-25T16:13:46.826+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : start()....
+2025-02-25T16:17:56.466+09:00  INFO 263540 --- [boot02_Component_Bean] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2025-02-25T16:17:56.470+09:00  INFO 263540 --- [boot02_Component_Bean] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T16:17:57.201+09:00  INFO 263540 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T16:17:57.269+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 263540 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T16:17:57.269+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T16:17:57.495+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T16:17:57.495+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T16:17:57.495+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T16:17:57.516+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T16:17:57.516+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 245 ms
+2025-02-25T16:17:57.522+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : CarComponent ...
+2025-02-25T16:17:57.526+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T16:17:57.528+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T16:17:57.528+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T16:17:57.529+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T16:17:57.530+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T16:17:57.530+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T16:17:57.531+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T16:17:57.532+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T16:17:57.532+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T16:17:57.533+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T16:17:57.554+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T16:17:57.595+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T16:17:57.602+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T16:17:57.605+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 0.366 seconds (process running for 253.25)
+2025-02-25T16:17:57.606+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T16:17:57.606+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T16:17:57.606+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T16:17:57.606+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T16:17:57.607+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T16:17:57.607+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T16:17:57.607+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : insert()....
+2025-02-25T16:17:57.607+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:17:57.607+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : insert()....
+2025-02-25T16:17:57.607+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:17:57.607+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : result:0
+2025-02-25T16:17:57.608+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T16:17:57.608+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T16:17:57.608+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent start
+2025-02-25T16:17:57.608+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : CarComponent:CarComponent(model=BMW, price=5000)
+2025-02-25T16:17:57.608+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : start()....
+2025-02-25T16:17:57.609+09:00  INFO 263540 --- [boot02_Component_Bean] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T16:30:26.064+09:00  INFO 263540 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T16:30:26.728+09:00  INFO 263540 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T16:30:31.188+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 269640 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T16:30:31.191+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T16:30:31.235+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T16:30:31.236+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T16:30:32.155+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T16:30:32.169+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T16:30:32.169+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T16:30:32.222+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T16:30:32.223+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 987 ms
+2025-02-25T16:30:32.275+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : CarComponent ...
+2025-02-25T16:30:32.284+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T16:30:32.285+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T16:30:32.285+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T16:30:32.287+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T16:30:32.287+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T16:30:32.288+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T16:30:32.290+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T16:30:32.290+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T16:30:32.291+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T16:30:32.292+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T16:30:32.351+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T16:30:32.590+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T16:30:32.617+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T16:30:32.624+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 1.825 seconds (process running for 2.468)
+2025-02-25T16:30:32.627+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T16:30:32.627+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T16:30:32.627+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent start
+2025-02-25T16:30:32.627+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : CarComponent:CarComponent(model=BMW, price=5000)
+2025-02-25T16:30:32.628+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : start()....
+2025-02-25T16:30:32.628+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T16:30:32.628+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T16:30:32.628+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T16:30:32.628+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T16:30:32.628+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T16:30:32.628+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T16:30:32.630+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : insert()....
+2025-02-25T16:30:32.630+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:30:32.632+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : insert()....
+2025-02-25T16:30:32.632+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:30:32.632+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : result:0
+2025-02-25T16:30:32.632+09:00  INFO 269640 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : org.example.component_bean.Student@14d99968
+2025-02-25T16:30:56.617+09:00  INFO 269640 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T16:30:57.351+09:00  INFO 269640 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T16:31:01.487+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Starting Boot02ComponentBeanApplication using Java 17 with PID 283132 (C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot02_Component_Bean)
+2025-02-25T16:31:01.489+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T16:31:01.539+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T16:31:01.540+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T16:31:02.654+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8802 (http)
+2025-02-25T16:31:02.668+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T16:31:02.668+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T16:31:02.734+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T16:31:02.735+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1194 ms
+2025-02-25T16:31:02.788+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : CarComponent ...
+2025-02-25T16:31:02.796+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestBeanConfig  : TestBeanConfig...
+2025-02-25T16:31:02.798+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...
+2025-02-25T16:31:02.798+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:null
+2025-02-25T16:31:02.800+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent ...
+2025-02-25T16:31:02.801+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_name : null
+2025-02-25T16:31:02.801+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : user_age : 0
+2025-02-25T16:31:02.802+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : TestController ...
+2025-02-25T16:31:02.803+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : TestService ...
+2025-02-25T16:31:02.803+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : TestRepository ...
+2025-02-25T16:31:02.804+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : TestBean...
+2025-02-25T16:31:02.857+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T16:31:03.116+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T16:31:03.153+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8802 (http) with context path '/'
+2025-02-25T16:31:03.160+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.e.c.Boot02ComponentBeanApplication     : Started Boot02ComponentBeanApplication in 2.257 seconds (process running for 2.89)
+2025-02-25T16:31:03.163+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : TestComponent ...run()...
+2025-02-25T16:31:03.163+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : UserComponent:UserComponent(user_name=yangssem, user_age=33)
+2025-02-25T16:31:03.163+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.UserComponent   : UserComponent start
+2025-02-25T16:31:03.163+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestComponent   : CarComponent:CarComponent(model=BMW, price=5000)
+2025-02-25T16:31:03.164+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.CarComponent    : start()....
+2025-02-25T16:31:03.164+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : ..run()...
+2025-02-25T16:31:03.164+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestService   : start() ...
+2025-02-25T16:31:03.164+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestRepository  : start() ...
+2025-02-25T16:31:03.164+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.TestBean      : stop()...
+2025-02-25T16:31:03.164+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] org.example.component_bean.Person        : sleep()...
+2025-02-25T16:31:03.164+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : Person(name=kim, age=33)
+2025-02-25T16:31:03.165+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : insert()....
+2025-02-25T16:31:03.165+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberService   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:31:03.167+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : insert()....
+2025-02-25T16:31:03.168+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.MemberDAOimpl   : MemberVO(num=1, id=admin, pw=hi1111, name=kim, tel=011)
+2025-02-25T16:31:03.168+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : result:0
+2025-02-25T16:31:03.168+09:00  INFO 283132 --- [boot02_Component_Bean] [restartedMain] o.example.component_bean.TestController  : student : Student(person=Person(name=kim, age=33))
+2025-02-25T16:32:54.878+09:00  INFO 283132 --- [boot02_Component_Bean] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T16:32:55.582+09:00  INFO 283132 --- [boot02_Component_Bean] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

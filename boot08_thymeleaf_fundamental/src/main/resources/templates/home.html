@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>home.html</h1>
+        <hr>
+        <h3>Model 받기(${} or *{})</h3>
+        <p>
+            <span>message : [[${message}]]</span><br>
+            <span>message : [[*{message}]]</span><br>
+            <span th:text="${message}">thymeleaf가 적용안될때를 위한 기본값</span><br>
+            <span th:text="*{message}">thymeleaf가 적용안될때를 위한 기본값</span><br>
+
+            <span>to_day : [[${to_day}]]</span><br>
+            <span th:text="${to_day}"></span><br>
+
+            <span>tag_h1 : [[${tag_h1}]]</span><br>
+            <span th:text="${tag_h1}"></span><br>
+
+            <span>tag_h1 : [(${tag_h1})]</span><br>
+            <span th:utext="${tag_h1}"></span><br>
+        </p>
+
+        <hr>
+        <h3>타임리프 내장객체 - 날짜,포멧</h3>
+        <p>
+            <span>#dates : [[${#dates}]]</span><br>
+            <span>#dates : [[${#dates.format(to_day)}]]</span><br>
+            <span>#dates : [[${#dates.format(to_day,'yyyy/MM/dd HH:mm:ss')}]]</span><br>
+        </p>
+
+        <hr>
+        <h3>th:object</h3>
+        <div th:object="${vo}">
+            <span>vo : [[${vo.num}]]</span><br>
+            <span th:text="${vo.num}"></span><br>
+            <span th:text="${vo.name}"></span><br>
+            <span th:text="${vo.age}"></span><br>
+        </div>
+
+        <hr>
+        <h3>산술연산</h3>
+        <span>+ : [[${10 + 3}]]</span><br>
+        <span>- : [[${10 - 3}]]</span><br>
+        <span>* : [[${10 * 3}]]</span><br>
+        <span>/ : [[${10 / 3}]]</span><br>
+        <span>% : [[${10 % 3}]]</span><br>
+        <span th:text="${10+3}"></span><br>
+        <span th:text="10+3"></span><br>
+
+        <hr>
+        <h3>비교연산</h3>
+        <span>[[${10 > 3}]]</span><br>
+        <span>[[${10 < 3}]]</span><br>
+        <span>[[${10 >= 3}]]</span><br>
+        <span>[[${10 le 3}]]</span><br>
+        <span>[[${10 == 3}]]</span><br>
+        <span>[[${10 != 3}]]</span><br>
+        <hr>
+        <span th:text="${10 > 3}"></span><br>
+        <span th:text="${10 < 3}"></span><br>
+        <span th:text="${10 >= 3}"></span><br>
+        <span th:text="${10 <= 3}"></span><br>
+        <span th:text="${10 == 3}"></span><br>
+        <span th:text="${10 != 3}"></span><br>
+        <hr>
+        <span th:text="10 > 3"></span><br>
+        <span th:text="10 < 3"></span><br>
+        <span th:text="10 >= 3"></span><br>
+        <span th:text="10 <= 3"></span><br>
+        <span th:text="10 == 3"></span><br>
+        <span th:text="10 != 3"></span><br>
+        <hr>
+        <span th:text="10 gt 3"></span><br>
+        <span th:text="10 lt 3"></span><br>
+        <span th:text="10 ge 3"></span><br>
+        <span th:text="10 le 3"></span><br>
+        <span th:text="10 eq 3"></span><br>
+        <span th:text="10 ne 3"></span><br>
+
+        <hr>
+        <h3>조건식 - 삼항연산자</h3>
+        <span>[[${10%2==0 ? '짝수':'홀수'}]]</span>
+        <span th:text="${10%2==0 ? '짝수':'홀수'}"></span>
+        <span th:text="10%2==0 ? '짝수':'홀수'"></span>
+
+        <hr>
+        <h3>Elvis 연산 - 조건식의 편의버전 : 데이터가 없을때 우측값 출력</h3>
+        <span>[[${nullData}?:'데이터가 없습니다.']]</span>
+        <span th:text="${nullData}?:'데이터가 없습니다.'"></span><br>
+
+        <hr>
+        <h3>th:with - 변수할당</h3>
+        <ul th:with="kor=100,eng=99,math=88,name='Kim Gil Dong', tag=${tag_h1}">
+            <li><span>[[${kor}]]</span></li>
+            <li><span>[[${eng}]]</span></li>
+            <li><span th:text="${math}"></span></li>
+            <li><span th:text="${name}"></span></li>
+            <li><span th:text="${tag}"></span></li>
+            <li><span th:utext="${tag}"></span></li>
+        </ul>
+
+        <hr>
+        <h3>th:href - URL/URI 표기 @{...},|...|</h3>
+        <a th:href="@{/test/insertOK(name='kim',age=33)}">/test/insertOK</a>
+        <a th:href="|/test/insertOK?name=kim&age=33|">/test/insertOK</a>
+
+        <hr>
+        <h3>자바객체를 사용할 수 있다.</h3>
+        <div th:with="avg=99.99">
+            <span th:with="random_su=33">[[${random_su}]]</span>
+            <span th:with="random_su=${T(java.lang.Math).random()}">[[${random_su}]]</span>
+            <span th:with="floor_su=${T(java.lang.Math).floor(3.14)}">[[${floor_su}]]</span>
+            <span th:with="floor_su=${T(java.lang.Math).floor(avg)}">[[${floor_su}]]</span>
+            <span th:with="int_max=${T(java.lang.Integer).MAX_VALUE}">[[${int_max}]]</span>
+        </div>
+
+        <hr>
+        <h3>반복문 - th:each : 반복을 위한 블럭이 필요하다.</h3>
+        <div th:each="i : ${#numbers.sequence(1,5)}">
+            <span>[[${i}]]</span>
+        </div>
+        <span th:each="i : ${#numbers.sequence(11,15)}">[[${i}]]</span>
+        <th:block th:each="i : ${#numbers.sequence(111,115)}">
+            <span>[[${i}]]</span>
+        </th:block>
+        <th:block th:each="i : ${#numbers.sequence(1,10,2)}">
+            <span>[[${i}]]</span>
+        </th:block>
+        <hr>
+        <th:block th:each="vo : ${vos}">
+            <span>[[${vo.num}]]</span>
+            <span>[[${vo.name}]]</span>
+            <span>[[${vo.age}]]</span><br>
+        </th:block>
+
+        <hr>
+        <h3>분기문 - th:if</h3>
+        <th:block th:each="i : ${#numbers.sequence(1,10)}">
+            <span th:if="${i%2==0}">[[${i}]]</span>
+        </th:block>
+        <span th:if="${100 gt 10}">큰수</span>
+        <span th:if="${10 lt 100}">작은수</span>
+
+        <hr>
+        <h3>분기문 - th:switch</h3>
+        <ul>
+            <th:block th:each="i : ${#numbers.sequence(1,10)}">
+                <li th:switch="${i}">
+                    <span th:case="1">일</span>
+                    <span th:case="2">이</span>
+                    <span th:case="3">삼</span>
+                    <span th:case="4">사</span>
+                    <span th:case="*">디폴트</span>
+                </li>
+            </th:block>
+        </ul>
+
+        <hr>
+        <h3>요청 파라메터 값 얻기 - ${param.num}</h3>
+        <span>[[${param.num}]]</span>
+        <a th:href="@{/home(num=1)}">click home</a>
+
+        <hr>
+        <h3>세션 값 얻기 - ${session.nickname}</h3>
+        <span>[[${session.nickname}]]</span>
+
+
+        <hr>
+        <h3>미션1 - boot09_member_model</h3>
+        <h3>미션2 - boot10_board_model</h3>
+
+    </div>
+</body>
+</html>

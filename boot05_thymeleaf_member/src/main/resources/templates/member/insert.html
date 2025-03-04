@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <nav th:replace="~{top_menu :: top_menu}"></nav>
+    </header>
+    <h1>insert.html</h1>
+    <form action="#" method="post" th:action="@{/member/insertOK}">
+        <input type="text" name="id" placeholder="name" value="tester"/>
+        <input type="text" name="pw" placeholder="pw" value="hi2222"/>
+        <input type="text" name="name" placeholder="name" value="lee"/>
+        <input type="text" name="tel" placeholder="tel" value="022"/>
+        <input type="submit" value="submit"/>
+    </form>
+
+</body>
+</html>

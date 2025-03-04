@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <nav th:replace="~{top_menu :: top_menu}"></nav>
+    </header>
+    <h1>delete.html [[${param.num}]]</h1>
+    <a th:href="@{/member/deleteOK(num=${param.num})}">/member/deleteOK</a>
+</body>
+</html>

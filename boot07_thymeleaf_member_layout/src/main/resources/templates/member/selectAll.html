@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>selectAll.html</h1>
+        <form method="get" th:action="@{/member/searchList}">
+            <select name="searchKey">
+                <option value="name">name</option>
+                <option value="tel">tel</option>
+            </select>
+            <input type="text" name="searchWord" th:value="ki">
+            <input type="submit" value="search">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>num</th>
+                    <th>id</th>
+                    <th>pw</th>
+                    <th>name</th>
+                    <th>tel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a th:href="@{/member/selectOne(num=1)}">1</a></td>
+                    <td><a th:href="@{/member/selectOne(num=1)}">admin</a></td>
+                    <td>hi1111</td>
+                    <td>kim</td>
+                    <td>011</td>
+                </tr>
+                <tr>
+                    <td><a th:href="@{/member/selectOne(num=2)}">2</a></td>
+                    <td><a th:href="@{/member/selectOne(num=2)}">admin</a></td>
+                    <td>hi1111</td>
+                    <td>kim</td>
+                    <td>011</td>
+                </tr>
+                <tr>
+                    <td><a th:href="@{/member/selectOne(num=3)}">3</a></td>
+                    <td><a th:href="@{/member/selectOne(num=3)}">admin</a></td>
+                    <td>hi1111</td>
+                    <td>kim</td>
+                    <td>011</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

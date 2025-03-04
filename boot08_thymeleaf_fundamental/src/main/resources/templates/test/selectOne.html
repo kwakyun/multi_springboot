@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>selectOne.html</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>num</th>
+                <th>name</th>
+                <th>age</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>[[${vo2.num}]]</td>
+                <td>[[${vo2.name}]]</td>
+                <td>[[${vo2.age}]]</td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+</html>

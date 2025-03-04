@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<nav th:fragment="top_menu">
+    <a th:href="@{/}">home</a>
+    <a th:href="@{/board/insert}">/board/insert</a>
+    <a th:href="@{/board/selectAll(cpage=1,limit=10)}">/board/selectAll</a>
+    <hr>
+</nav>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<nav th:fragment="top_menu">
+    <a th:href="@{/}">home</a>
+    <a th:href="@{/home}">home</a>
+    <a href="/">home</a>
+    <a href="/home">home</a>
+    <a th:href="@{/test/insert}">/test/insert</a>
+    <a th:href="@{/test/update(num=1)}">/test/update</a>
+    <a th:href="@{/test/delete(num=1)}">/test/delete</a>
+    <a th:href="@{/test/selectOne(num=1)}">/test/selectOne</a>
+    <a th:href="@{/test/selectAll(cpage=1,limit=10)}">/test/selectAll</a>
+    <a th:href="@{/test/searchList(cpage=1,limit=10,searchKey='name',searchWord='ki')}">/test/searchList</a>
+    <hr>
+    <a th:href="@{/test/insertOK(name='kim',age=33)}">/test/insertOK</a>
+    <a th:href="|/test/insertOK?name=kim&age=33|">/test/insertOK</a>
+    <a href="/test/insertOK?name=kim&age=33">/test/insertOK</a>
+    <a th:href="@{/test/updateOK(num=1,name='kim',age=33)}">/test/updateOK</a>
+    <a th:href="@{/test/deleteOK(num=1)}">/test/deleteOK</a>
+</nav>
+</html>

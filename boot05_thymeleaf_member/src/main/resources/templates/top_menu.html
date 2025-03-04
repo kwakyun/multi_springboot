@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<nav th:fragment="top_menu">
+    <a th:href="@{/}">home</a>
+    <a th:href="@{/member/insert}">/member/insert</a>
+    <a th:href="@{/member/update(num=1)}">/member/update</a>
+    <a th:href="@{/member/delete(num=1)}">/member/delete</a>
+    <a th:href="@{/member/selectOne(num=1)}">/member/selectOne</a>
+    <a th:href="@{/member/selectAll(cpage=1,limit=10)}">/member/selectAll</a>
+    <a th:href="@{/member/searchList(cpage=1,limit=10,searchKey='name',searchWord='ki')}">/member/searchList</a>
+    <hr>
+</nav>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>insert.html</h1>
+        <form action="#" method="post" th:action="@{/board/insertOK}">
+            <input type="text" name="title" placeholder="title" value="title"/>
+            <input type="text" name="content" placeholder="content" value="content"/>
+            <input type="text" name="writer" placeholder="writer" value="writer"/>
+            <input type="submit" value="submit"/>
+        </form>
+    </div>
+</body>
+</html>

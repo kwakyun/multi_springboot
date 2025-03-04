@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>selectOne.html</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>num</th>
+                <th>title</th>
+                <th>content</th>
+                <th>writer</th>
+                <th>wdate</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>[[${param.num}]]</td>
+                    <td>[[${vo2.title}]]</td>
+                    <td>[[${vo2.content}]]</td>
+                    <td>[[${vo2.writer}]]</td>
+                    <td>[[${vo2.wdate}]]</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">
+                        <a th:href="@{/board/update(num=${param.num})}">/board/update</a>
+                        <a th:href="@{/board/delete(num=${param.num})}">/board/delete</a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+</body>
+</html>

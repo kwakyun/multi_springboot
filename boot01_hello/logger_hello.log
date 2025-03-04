@@ -1,0 +1,39 @@
+2025-02-25T11:46:55.895+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : Starting Boot01HelloApplication using Java 17 with PID 131388 (C:\MULTI_EDU_01\springboot\work\boot01_hello\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot01_hello)
+2025-02-25T11:46:55.898+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T11:46:55.960+09:00  INFO 131388 --- [boot01_hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T11:46:55.962+09:00  INFO 131388 --- [boot01_hello] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T11:46:56.957+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2025-02-25T11:46:56.970+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T11:46:56.970+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T11:46:57.010+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T11:46:57.011+09:00  INFO 131388 --- [boot01_hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2025-02-25T11:46:57.103+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T11:46:57.349+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T11:46:57.382+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2025-02-25T11:46:57.391+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : Started Boot01HelloApplication in 2.062 seconds (process running for 2.733)
+2025-02-25T11:46:57.394+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : log Hello World!
+2025-02-25T11:46:57.397+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : TestVO(num=11, name=kim, age=44)
+2025-02-25T11:46:57.397+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : TestVO(num=11, name=kim, age=44)
+2025-02-25T11:47:34.389+09:00  INFO 131388 --- [boot01_hello] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-02-25T11:47:34.409+09:00  INFO 131388 --- [boot01_hello] [http-nio-8801-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25T11:47:34.410+09:00  INFO 131388 --- [boot01_hello] [http-nio-8801-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-25T11:47:34.411+09:00  INFO 131388 --- [boot01_hello] [http-nio-8801-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-25T11:47:34.416+09:00  INFO 131388 --- [boot01_hello] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T11:47:35.240+09:00  INFO 131388 --- [boot01_hello] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T11:47:35.332+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : Starting Boot01HelloApplication using Java 17 with PID 131388 (C:\MULTI_EDU_01\springboot\work\boot01_hello\build\classes\java\main started by rf000 in C:\MULTI_EDU_01\springboot\work\boot01_hello)
+2025-02-25T11:47:35.332+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T11:47:35.633+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8801 (http)
+2025-02-25T11:47:35.633+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T11:47:35.635+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T11:47:35.669+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T11:47:35.669+09:00  INFO 131388 --- [boot01_hello] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 331 ms
+2025-02-25T11:47:35.688+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-02-25T11:47:35.739+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T11:47:35.747+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8801 (http) with context path '/'
+2025-02-25T11:47:35.750+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : Started Boot01HelloApplication in 0.465 seconds (process running for 41.092)
+2025-02-25T11:47:35.751+09:00  INFO 131388 --- [boot01_hello] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-25T11:47:35.752+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : log Hello World!
+2025-02-25T11:47:35.754+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : TestVO(num=11, name=kim, age=44)
+2025-02-25T11:47:35.754+09:00  INFO 131388 --- [boot01_hello] [restartedMain] o.e.boot01_hello.Boot01HelloApplication  : TestVO(num=11, name=kim, age=44)
+2025-02-25T13:04:05.613+09:00  INFO 131388 --- [boot01_hello] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T13:04:06.333+09:00  INFO 131388 --- [boot01_hello] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

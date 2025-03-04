@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>selectAll.html</h1>
+        <form method="get" th:action="@{/board/searchList}">
+            <select name="searchKey">
+                <option value="name">name</option>
+                <option value="tel">tel</option>
+            </select>
+            <input type="text" name="searchWord" th:value="ki">
+            <input type="submit" value="search">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>num</th>
+                    <th>title</th>
+                    <th>content</th>
+                    <th>writer</th>
+                    <th>wdate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th:block th:each="vo : ${vos}">
+                    <tr>
+                        <td><a th:href="@{/board/selectOne(num=${vo.num})}">[[${vo.num}]]</a></td>
+                        <td><a th:href="@{/board/selectOne(num=${vo.num})}">[[${vo.title}]]</a></td>
+                        <td>[[${vo.content}]]</td>
+                        <td>[[${vo.writer}]]</td>
+                        <td>[[${vo.wdate}]]</td>
+                    </tr>
+                </th:block>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

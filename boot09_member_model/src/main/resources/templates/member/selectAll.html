@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>selectAll.html</h1>
+        <form method="get" th:action="@{/member/searchList}">
+            <select name="searchKey">
+                <option value="name">name</option>
+                <option value="tel">tel</option>
+            </select>
+            <input type="text" name="searchWord" th:value="ki">
+            <input type="submit" value="search">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>num</th>
+                    <th>id</th>
+                    <th>pw</th>
+                    <th>name</th>
+                    <th>tel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th:block th:each="vo : ${vos}">
+                    <tr>
+                        <td><a th:href="@{/member/selectOne(num=${vo.num})}">[[${vo.num}]]</a></td>
+                        <td><a th:href="@{/member/selectOne(num=${vo.num})}">[[${vo.id}]]</a></td>
+                        <td>[[${vo.pw}]]</td>
+                        <td>[[${vo.name}]]</td>
+                        <td>[[${vo.tel}]]</td>
+                    </tr>
+                </th:block>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

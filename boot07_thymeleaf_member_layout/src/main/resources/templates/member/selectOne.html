@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>selectOne.html</h1>
+        <a th:href="@{/member/update(num=1)}">/member/update</a>
+        <a th:href="@{/member/delete(num=1)}">/member/delete</a>
+    </div>
+</body>
+</html>

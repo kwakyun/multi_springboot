@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>update.html</h1>
+        <form action="#" method="post" th:action="@{/board/updateOK}">
+            <input type="hidden" name="num" placeholder="num" th:value="${vo2.num}"/>[[${vo2.num}]]
+            <input type="text" name="title" placeholder="title" th:value="${vo2.title}"/>
+            <input type="text" name="content" placeholder="content" th:value="${vo2.content}"/>
+            <input type="text" name="writer" placeholder="writer" th:value="${vo2.writer}"/>
+            <input type="submit" value="submit"/>
+        </form>
+    </div>
+</body>
+</html>

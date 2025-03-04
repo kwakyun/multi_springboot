@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+    <div th:fragment="content">
+        <h1>selectAll.html</h1>
+        <form method="get" th:action="@{/member/searchList}">
+            <select name="searchKey">
+                <option value="name">name</option>
+                <option value="tel">tel</option>
+            </select>
+            <input type="text" name="searchWord" th:value="ki">
+            <input type="submit" value="search">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>num</th>
+                    <th>id</th>
+                    <th>pw</th>
+                    <th>name</th>
+                    <th>tel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th:block th:each="vo : ${vos}">
+                    <tr>
+                        <td><a th:href="@{/member/selectOne(num=${vo.num})}">[[${vo.num}]]</a></td>
+                        <td><a th:href="@{/member/selectOne(num=${vo.num})}">[[${vo.id}]]</a></td>
+                        <td>[[${vo.pw}]]</td>
+                        <td>[[${vo.name}]]</td>
+                        <td>[[${vo.tel}]]</td>
+                    </tr>
+                </th:block>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">
+                        <a th:href="@{/member/selectAll(cpage=1,limit=5)}">1</a>
+                        <a th:href="@{/member/selectAll(cpage=2,limit=5)}">2</a>
+                        <a th:href="@{/member/selectAll(cpage=3,limit=5)}">3</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <a th:href="@{/member/searchList(cpage=1,limit=5,searchKey=${param.searchKey},searchWord=${param.searchWord})}">1</a>
+                        <a th:href="@{/member/searchList(cpage=2,limit=5,searchKey=${param.searchKey},searchWord=${param.searchWord})}">2</a>
+                        <a th:href="@{/member/searchList(cpage=3,limit=5,searchKey=${param.searchKey},searchWord=${param.searchWord})}">3</a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
