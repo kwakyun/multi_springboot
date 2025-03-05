@@ -3,16 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 </head>
 <body th:replace="~{layout::layout}">
     <div th:fragment="content">
-        <h1>insert.html</h1>
+        <h1>회원가입 페이지</h1>
         <form action="#" method="post" th:action="@{/member/insertOK}">
-            <input type="text" name="id" placeholder="name" value="tester"/>
-            <input type="text" name="pw" placeholder="pw" value="hi2222"/>
-            <input type="text" name="name" placeholder="name" value="lee"/>
-            <input type="text" name="tel" placeholder="tel" value="022"/>
-            <input type="submit" value="submit"/>
+            <table id="customers">
+                <tr>
+                    <td><label for="id">아이디:</label></td>
+                    <td>
+                        <input type="text" id="id" name="id" value="admin">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pw">비번:</label></td>
+                    <td>
+                        <input type="password" id="pw" name="pw" value="hi1111">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="name">이름:</label></td>
+                    <td>
+                        <input type="text" id="name" name="name" value="kim">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tel">폰번:</label></td>
+                    <td>
+                        <input type="text" id="tel" name="tel" value="010-1111-1111">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="전송">
+                    </td>
+                </tr>
+            </table>
         </form>
     </div>
 </body>

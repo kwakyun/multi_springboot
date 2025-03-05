@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 </head>
 <body th:replace="~{layout::layout}">
     <div th:fragment="content">
-        <h1>selectAll.html</h1>
+        <h1>회원목록</h1>
         <form method="get" th:action="@{/member/searchList}">
-            <select name="searchKey">
-                <option value="name">name</option>
-                <option value="tel">tel</option>
-            </select>
-            <input type="text" name="searchWord" th:value="ki">
-            <input type="submit" value="search">
+        <table id="search_form">
+            <tr>
+                <td><select name="searchKey">
+                    <option value="name">name</option>
+                    <option value="tel">tel</option>
+                </select></td>
+                <td><input type="text" name="searchWord" th:value="ki"></td>
+                <td><input type="submit" value="search"></td>
+            </tr>
+        </table>
         </form>
-        <table>
+
+        <table id="customers">
             <thead>
                 <tr>
                     <th>num</th>
