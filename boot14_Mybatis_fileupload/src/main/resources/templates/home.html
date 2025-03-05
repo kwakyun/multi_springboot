@@ -10,6 +10,9 @@
 <body th:replace="~{layout::layout}">
     <div th:fragment="content">
         <h1>home.html</h1>
+        <img src="/images/0001.png" alt="">
+        <img th:src="|/images/0001.png|" alt="">
+        <img th:src="${'/images/0001.png'}" alt="">
     </div>
 </body>
 </html>

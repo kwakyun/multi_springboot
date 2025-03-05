@@ -9,7 +9,10 @@
 </head>
 <body th:replace="~{layout::layout}">
     <div th:fragment="content">
-        <h1>home.html</h1>
+        <h1>회원삭제 페이지</h1>
+        <h3>[[${param.num}]] 번회원을 정말 삭제하시겠습니까?</h3>
+        <a th:href="@{/member/deleteOK(num=${param.num})}">회원삭제</a>
     </div>
 </body>
+
 </html>
