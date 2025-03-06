@@ -1,0 +1,148 @@
+/* 기본 스타일 설정 */
+body {
+    min-height: 100vh;
+    background: linear-gradient(to top right, #ffffff 0%, #f1f1f1 100%);
+    padding: 30px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 테이블 스타일 */
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#customers th, #customers td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* 짝수 행 배경색 */
+#customers tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* 마우스 호버시 배경색 */
+#customers tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* 테이블 헤더 스타일 */
+#customers th {
+    background-color: #04AA6D;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* 검색 폼 스타일 */
+#search_form {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#search_form input[type="text"],
+#search_form input[type="submit"],
+#search_form select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Input 필드 스타일 */
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #0f9805;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Submit 버튼 스타일 */
+input[type="submit"] {
+    background-color: #0c8785;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #276200;
+}
+
+/* Select 요소 스타일 */
+select {
+    width: 100%;
+    padding: 12px;
+    background-color: #f0f8ff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Select 요소 화살표 스타일 */
+select::-ms-expand {
+    display: none;
+}
+
+/* 링크 스타일 */
+a {
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #f2d7b5;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* 추가적인 스타일 개선 */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+select:focus {
+    outline: none;
+    border-color: #04AA6D;
+}
+
+/* 반응형 디자인 (모바일) */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    #search_form {
+        width: 100%;
+    }
+
+    #customers {
+        font-size: 12px;
+    }
+
+    #customers th, #customers td {
+        padding: 8px;
+    }
+}

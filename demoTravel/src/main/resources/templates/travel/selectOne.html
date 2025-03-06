@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" th:href="@{/css/main.css}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d69136008e296bf0e590295af232abcc"></script>
+  <script type="text/javascript" th:src="@{/js/kakaoApi.js}"></script>
+
+  <script>
+    $(document).ready(function(){
+      var container = document.getElementById('kakaoMap'); //지도를 담을 영역의 DOM 레퍼런스
+      var options = { //지도를 생성할 때 필요한 기본 옵션
+        center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
+        level: 3 //지도의 레벨(확대, 축소 정도)
+      };
+      var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+
+      $.ajax({
+        url: 'https://dapi.kakao.com/v2/local/search/address.json?query=[[${vo2.address}]]',
+        type: 'GET',
+        headers: {'Authorization': 'KakaoAK 218de383c68f7ee6a4c254ec31c1bd81'},
+        success: function(data) {
+          console.log(data);
+          // API 응답에서 좌표 추출
+          const placeLA = data.documents[0].y; // 위도
+          const placeLO = data.documents[0].x; // 경도
+
+          // 카카오맵에 해당 좌표로 위치 설정
+          var markerLocation = new kakao.maps.LatLng(placeLA, placeLO);
+          map.setCenter(markerLocation); // 지도의 중심을 변경
+          var marker = new kakao.maps.Marker({
+            position: markerLocation
+          });
+          marker.setMap(map); // 마커를 지도에 표시
+        },
+        error: function(e) {
+          console.log(e);
+        }
+      });
+
+    });
+
+
+  </script>
+
+
+</head>
+<body th:replace="~{layout::layout}">
+<div th:fragment="content">
+  <h1>관광명소 상세 페이지</h1>
+  <table id="customers">
+    <thead>
+    <tr>
+      <th>no</th>
+      <th>district</th>
+      <th>title</th>
+      <th>description</th>
+      <th>address</th>
+      <th>phone</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>[[${vo2.no}]]</td>
+      <td>[[${vo2.district}]]</td>
+      <td>[[${vo2.title}]]</td>
+      <td>[[${vo2.description}]]</td>
+      <td>[[${vo2.address}]]</td>
+      <td>[[${vo2.phone}]]</td>
+    </tr>
+    <tr>
+      <td colspan="2">관광지 이미지</td>
+      <td colspan="4">
+        <img th:src="|/uploadimgPath/${vo2.imgname}|" width="200" alt="">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">카카오 맵</td>
+      <td colspan="4" th:rowspan="5">
+        <div id="kakaoMap" style="width:500px;height:400px;"></div>
+      </td>
+    </tr>
+
+    </tbody>
+    <tfoot>
+    <tr>
+      <td colspan="5">
+        <a th:href="@{/travel/update(no=${vo2.no})}">관광지수정</a>
+        <a th:href="@{/travel/delete(no=${vo2.no})}">관광지삭제</a>
+      </td>
+    </tr>
+    </tfoot>
+  </table>
+
+
+
+</div>
+</body>
+</html>

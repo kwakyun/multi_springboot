@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.boot17_openapi_travel.member.MemberMapper">
+
+    <select id="selectAll" resultType="org.example.boot17_openapi_travel.member.MemberVO">
+        select * from member_file
+        order by num desc limit #{startRow},#{limit}
+    </select>
+
+    <select id="searchListName" resultType="org.example.boot17_openapi_travel.member.MemberVO">
+        select * from member_file
+        where name like #{searchWord}
+        order by num desc limit #{startRow},#{limit}
+    </select>
+
+    <select id="searchListTel" resultType="org.example.boot17_openapi_travel.member.MemberVO">
+        select * from member_file
+        where tel like #{searchWord}
+        order by num desc limit #{startRow},#{limit}
+    </select>
+
+    <select id="selectOne" resultType="org.example.boot17_openapi_travel.member.MemberVO">
+        select * from member_file
+        where num = #{num}
+    </select>
+
+    <insert id="insertOK">
+        insert into member_file(id,pw,name,tel,imgname)
+        values(#{id},#{pw},#{name},#{tel},#{imgname})
+    </insert>
+
+    <update id="updateOK">
+        update member_file set id=#{id},pw=#{pw},name=#{name},tel=#{tel},imgname=#{imgname}
+        where num=#{num}
+    </update>
+
+    <delete id="deleteOK">
+        delete from member_file
+        where num=#{num}
+    </delete>
+
+</mapper>

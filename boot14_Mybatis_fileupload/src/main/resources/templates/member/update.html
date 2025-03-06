@@ -10,7 +10,7 @@
 <body th:replace="~{layout::layout}">
     <div th:fragment="content">
         <h1>회원수정 페이지</h1>
-        <form action="#" method="post" th:action="@{/member/updateOK}">
+        <form action="#" method="post" th:action="@{/member/updateOK}" enctype="multipart/form-data">
             <table id="customers">
                 <tr>
                     <td><label for="num">번호:</label></td>
@@ -40,6 +40,19 @@
                     <td><label for="tel">폰번:</label></td>
                     <td>
                         <input type="text" id="tel" name="tel" th:value="${vo2.tel}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>프로필이미지:</td>
+                    <td>
+                        <img th:src="|/uploadimgPath/thumb_${vo2.imgname}|" alt="">
+                        <input type="hidden" id="imgname" name="imgname" th:value="${vo2.imgname}">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="file">이미지변경:</label></td>
+                    <td>
+                        <input type="file" id="file" name="file" alt="default.png">
                     </td>
                 </tr>
                 <tr>

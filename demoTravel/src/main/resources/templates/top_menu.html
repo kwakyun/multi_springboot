@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<nav th:fragment="top_menu">
+    <a th:href="@{/}">home</a>
+    <th:block>
+        <a th:href="@{/travel/insert}">관광지 추가</a>
+        <a th:href="@{/travel/selectAll(cpage=1,limit=5)}">관광지목록</a>
+        <a th:href="@{/map/kakaoMap_do}">카카오맵</a>
+    </th:block>
+    <hr>
+</nav>
+</html>

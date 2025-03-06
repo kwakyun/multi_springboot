@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/boot15_jpa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/boot16_Mybatis_file_security" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/boot17_openapi_travel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/boot18_kakao_map_api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demoTravel" vcs="Git" />
   </component>
 </project>
