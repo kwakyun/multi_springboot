@@ -18,6 +18,7 @@
                 <th>pw</th>
                 <th>name</th>
                 <th>tel</th>
+                <th>regdate</th>
             </tr>
             </thead>
             <tbody>
@@ -27,17 +28,12 @@
                     <td>[[${vo2.pw}]]</td>
                     <td>[[${vo2.name}]]</td>
                     <td>[[${vo2.tel}]]</td>
-                </tr>
-                <tr>
-                    <td>프로필이미지</td>
-                    <td colspan="4">
-                        <img th:src="|/uploadimgPath/${vo2.imgname}|" width="200" alt="">
-                    </td>
+                    <td>[[${vo2.regdate}]]</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="5">
+                    <td colspan="6">
                         <a th:href="@{/member/update(num=${param.num})}">회원수정</a>
                         <a th:href="@{/member/delete(num=${param.num})}">회원삭제</a>
                     </td>

@@ -31,7 +31,7 @@
                     <th>pw</th>
                     <th>name</th>
                     <th>tel</th>
-                    <th>imgname</th>
+                    <th>regdate</th>
                 </tr>
             </thead>
             <tbody>
@@ -42,10 +42,7 @@
                         <td>[[${vo.pw}]]</td>
                         <td>[[${vo.name}]]</td>
                         <td>[[${vo.tel}]]</td>
-                        <td>
-                            <img th:src="|/uploadimgPath/thumb_${vo.imgname}|" alt="">
-                            <img th:src="${'/uploadimgPath/thumb_'+vo.imgname}" alt="">
-                        </td>
+                        <td>[[${vo.regdate}]]</td>
                     </tr>
                 </th:block>
             </tbody>
@@ -58,7 +55,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="5">
+                    <td colspan="6">
                         <a th:href="@{/member/searchList(cpage=1,limit=5,searchKey=${param.searchKey},searchWord=${param.searchWord})}">1</a>
                         <a th:href="@{/member/searchList(cpage=2,limit=5,searchKey=${param.searchKey},searchWord=${param.searchWord})}">2</a>
                         <a th:href="@{/member/searchList(cpage=3,limit=5,searchKey=${param.searchKey},searchWord=${param.searchWord})}">3</a>

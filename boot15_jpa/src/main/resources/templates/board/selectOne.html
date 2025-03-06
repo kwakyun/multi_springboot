@@ -3,43 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <link rel="stylesheet" th:href="@{/css/board.css}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 </head>
 <body th:replace="~{layout::layout}">
     <div th:fragment="content">
-        <h1>회원 상세 페이지</h1>
+        <h1>글 상세 페이지</h1>
         <table id="customers">
             <thead>
             <tr>
                 <th>num</th>
-                <th>id</th>
-                <th>pw</th>
-                <th>name</th>
-                <th>tel</th>
+                <th>title</th>
+                <th>content</th>
+                <th>writer</th>
+                <th>wdate</th>
             </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>[[${param.num}]]</td>
-                    <td>[[${vo2.id}]]</td>
-                    <td>[[${vo2.pw}]]</td>
-                    <td>[[${vo2.name}]]</td>
-                    <td>[[${vo2.tel}]]</td>
-                </tr>
-                <tr>
-                    <td>프로필이미지</td>
-                    <td colspan="4">
-                        <img th:src="|/uploadimgPath/${vo2.imgname}|" width="200" alt="">
-                    </td>
+                    <td>[[${vo2.title}]]</td>
+                    <td>[[${vo2.content}]]</td>
+                    <td>[[${vo2.writer}]]</td>
+                    <td>[[${vo2.wdate}]]</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <td colspan="5">
-                        <a th:href="@{/member/update(num=${param.num})}">회원수정</a>
-                        <a th:href="@{/member/delete(num=${param.num})}">회원삭제</a>
+                        <a th:href="@{/board/update(num=${param.num})}">글수정</a>
+                        <a th:href="@{/board/delete(num=${param.num})}">글삭제</a>
                     </td>
                 </tr>
             </tfoot>
