@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<nav th:fragment="top_menu">
+    <a th:href="@{/}">home</a>
+    <th:block sec:authorize="isAnonymous()">
+        <a th:href="@{/member/insert}">회원가입</a>
+        <a th:href="@{/member/login_form}">로그인</a>
+        <a th:href="@{/board/selectAll(cpage=1,limit=5)}">게시글목록</a>
+    </th:block>
+
+    <th:block sec:authorize="isAuthenticated()">
+        <a th:href="@{/member/logout}">로그아웃</a>
+        <a th:href="@{/member/selectOneMyPage}">마이페이지</a>
+        <a th:href="@{/board/insert}">게시글작성</a>
+    </th:block>
+
+    <th:block sec:authorize="hasRole('ADMIN')">
+        <a th:href="@{/member/selectAll(cpage=1,limit=5)}">회원목록</a>
+    </th:block>
+
+
+
+
+
+    <hr>
+</nav>
+</html>

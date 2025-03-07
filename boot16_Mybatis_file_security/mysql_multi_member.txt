@@ -1,0 +1,30 @@
+use multi;
+drop table if exists member_sec;
+-- 암호화 비번은 텍스트가 크기때문에 longtext타입으로 설정
+CREATE TABLE `multi`.`member_sec` (
+  `num` INT NOT NULL AUTO_INCREMENT,
+  `id` VARCHAR(45) NOT NULL,
+  `pw` LONGTEXT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `tel` VARCHAR(45) NOT NULL,
+  `imgname` VARCHAR(45) DEFAULT 'default.png',
+  `regdate` TIMESTAMP NULL DEFAULT now(),
+  `user_role` VARCHAR(45) NULL DEFAULT 'USER',
+  PRIMARY KEY (`num`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
+
+insert into member_sec(id,pw,name,tel,user_role) values('admin1','$2a$10$byT8ivQHWr/N5bo1xMgxYulXSnfgYK8Y0aS08YhZCvnwl2z239PDu','kim1','010-0000-1111','ADMIN');
+insert into member_sec(id,pw,name,tel,user_role) values('admin2','hi1111','kim2','010-0000-2222','ADMIN');
+insert into member_sec(id,pw,name,tel,user_role) values('admin3','hi1111','kim3','010-0000-3333','ADMIN');
+insert into member_sec(id,pw,name,tel,user_role) values('admin4','hi1111','kim4','010-0000-4444','ADMIN');
+insert into member_sec(id,pw,name,tel,user_role) values('admin5','hi1111','kim5','010-0000-5555','ADMIN');
+insert into member_sec(id,pw,name,tel,user_role) values('tester1','hi1111','lee1','010-1111-0000','USER');
+insert into member_sec(id,pw,name,tel,user_role) values('tester2','hi1111','lee2','010-2222-0000','USER');
+insert into member_sec(id,pw,name,tel,user_role) values('tester3','hi1111','lee3','010-3333-0000','USER');
+insert into member_sec(id,pw,name,tel,user_role) values('tester4','hi1111','lee4','010-4444-0000','USER');
+insert into member_sec(id,pw,name,tel,user_role) values('tester5','hi1111','lee5','010-5555-0000','USER');
+insert into member_sec(id,pw,name,tel) values('user1','hi1111','yang1','010-7777-0000');
+insert into member_sec(id,pw,name,tel) values('user2','hi1111','yang2','010-7777-0000');
+insert into member_sec(id,pw,name,tel) values('user3','hi1111','yang3','010-7777-0000');
+
+select * from member_sec order by num desc;

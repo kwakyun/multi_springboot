@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.mybatis_file_security.board.BoardMapper">
+
+    <select id="selectAll" resultType="org.example.mybatis_file_security.board.BoardVO">
+        select * from board
+        order by num desc limit #{startRow},#{limit}
+    </select>
+
+    <select id="searchListTitle" resultType="org.example.mybatis_file_security.board.BoardVO">
+        select * from board
+        where title like #{searchWord}
+        order by num desc limit #{startRow},#{limit}
+    </select>
+
+    <select id="searchListContent" resultType="org.example.mybatis_file_security.board.BoardVO">
+        select * from board
+        where content like #{searchWord}
+        order by num desc limit #{startRow},#{limit}
+    </select>
+
+    <select id="selectOne" resultType="org.example.mybatis_file_security.board.BoardVO">
+        select * from board
+        where num = #{num}
+    </select>
+
+    <insert id="insertOK">
+        insert into board(title,content,writer)
+        values(#{title},#{content},#{writer})
+    </insert>
+
+    <update id="updateOK">
+        update board set title=#{title},content=#{content},writer=#{writer},wdate=now()
+        where num=#{num}
+    </update>
+
+    <delete id="deleteOK">
+        delete from board
+        where num=#{num}
+    </delete>
+
+</mapper>
