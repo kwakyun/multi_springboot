@@ -1,0 +1,167 @@
+!자바
+@member
+--
+ #MemberVO -> @Data 
+  num 
+  id 
+  pw 
+  name 
+  tel 
+  imgname
+  file
+  regdate
+  user_role 
+
+#MemberMapper
+ insertOK(vo);
+ updateOK(vo);
+ deleteOK(vo);
+ selectOne(vo);
+ selectAll(startRow,limit);
+ searchListName(startRow,limit,searchWord);
+ searchListTel(startRow,limit,searchWord);
+ findById(username);
+
+#MemberService
+ insertOK(vo);
+ updateOK(vo);
+ deleteOK(vo);
+ selectOne(vo);
+ selectAll(cpage,limit);
+ searchList(cpage,limit,searchKey,searchWord);
+ selectOneMyPage(user_id)
+
+#MemberServiceImpl
+ mapper -> @Autowired
+ passwordEncoder -> @Autowired
+ insertOK(vo);
+ updateOK(vo);
+ deleteOK(vo);
+ selectOne(vo);
+ selectAll(cpage,limit);
+ searchList(cpage,limit,searchKey,searchWord);
+ selectOneMyPage(user_id)
+
+#MemberController -> @Slf4j @Controller @RequestMapping
+ service -> @Autowired
+ realPath -> @Value
+ session -> @Autowired
+
+
+ insert() -> @GetMapping
+ update(vo,model) -> @GetMapping
+ delete() -> @GetMapping
+ selectOne(vo,model) -> @GetMapping
+ selectAll(cpage,limit,model) -> @GetMapping
+ searchList(cpage,limit,searchKey,searchWord,model) ->   @GetMapping
+ insertOK(vo) -> @PostMapping
+ updateOK(vo) -> @PostMapping
+ deleteOK(vo) -> @GetMapping
+ login_form()
+ required_login()
+ login_fail()
+ login_success()
+ denied()
+ expired()
+ selectOneMyPage(model)
+
+---------------------------
+@board
+--
+#BoardVO  
+  num 
+  title
+  content 
+  writer 
+  wdate
+
+#BoardMapper
+ insertOK(vo);
+ updateOK(vo);
+ deleteOK(vo);
+ selectOne(vo);
+ selectAll(startRow,limit);
+ searchListTitle(startRow,limit,searchWord);
+ searchListContent(startRow,limit,searchWord);
+
+#BoardService
+ insertOK();
+ updateOK();
+ deleteOK();
+ selectOne();
+ selectAll();
+ searchList();
+
+#BoardServiceImpl
+ mapper -> @Autowired
+
+ insertOK();
+ updateOK();
+ deleteOK();
+ selectOne();
+ selectAll();
+ searchList();
+
+#BoardController -> @Slf4j, @Controller, @RequestMapping
+ service -> @Autowired
+ insert();
+ update();
+ delete();
+ selectOne();
+ selectAll();
+ searchList();
+ insertOK();
+ updateOK();
+ deleteOK();
+
+-------------------------
+@config
+--
+ #AuthSuccessHandler
+  requestCache -> HttpSessionRequestCache();
+  AuthSuccessHandler();
+  onAuthenticationSuccess(request,response,authentication)
+ #CustomUserDetailsService
+  mapper -> @Autowired
+  loadUserByUsername(username); 
+ #SecurityConfig
+  securityFilterChain(http) -> @Bean
+  passwordEncoder -> Bean
+
+
+==========================
+!리소스
+@jdbc
+ #sqlMapper_board.xml
+ #sqlMapper_member.xml
+@static
+ #css
+ #images
+@templates  Folder
+ #board     Folder
+  $insert.html
+  $update.html
+  $delete.html
+  $selectOne.html
+  $selectAll.html
+
+ #member    Folder
+  $insert.html
+  $update.html
+  $delete.html
+  $selectOne.html
+  $selectAll.html
+  $denied.html
+  $expired.html
+  $login_fail.html
+  $login_form.html
+  $login_success.html
+  $required_login.html
+  
+ #footer.html
+ #home.html
+ #layout.html
+ #top_menu.html
+
+@application.properties
+@import
