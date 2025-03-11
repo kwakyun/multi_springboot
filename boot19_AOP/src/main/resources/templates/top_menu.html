@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<nav th:fragment="top_menu">
+    <a th:href="@{/}">home</a>
+    <a th:href="@{/member/insert}">회원가입</a>
+    <a th:href="@{/member/selectAll(cpage=1,limit=5)}">회원목록</a>
+    <a th:href="@{/board/insert}">게시글작성</a>
+    <a th:href="@{/board/selectAll(cpage=1,limit=5)}">게시글목록</a>
+    <hr>
+</nav>
+</html>

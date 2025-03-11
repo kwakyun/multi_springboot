@@ -59,6 +59,7 @@ public class TravelController {
         log.info("vo : {}",vo);
 
         TravelVO vo2 = service.selectOne(vo);
+        log.info("vo2 : {}",vo2);
         model.addAttribute("vo2", vo2);
 
         return "travel/selectOne";

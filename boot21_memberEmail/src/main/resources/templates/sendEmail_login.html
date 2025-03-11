@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+
+    // AJAX 요청 조건부 처리
+    $.ajax({
+      url: '/member/emailSelectOne',
+      type: 'GET',
+      data: { email: $('#email_id').val() },  // email_id의 값을 가져와서 전달
+      dataType: 'json',
+      success: function (response) {
+        const user_password = response.password; // 응답에서 password를 받아옴
+        console.log(user_password);
+        $('input[name="password"]').val(user_password); // 폼의 hidden input에 password 값 설정
+      },
+      error: function (xhr, status, error) {
+        console.error("오류 발생: ", error);
+      }
+    });
+  });
+</script>
+<body th:replace="~{layout::layout}">
+<div th:fragment="content">
+  <h1>home.html</h1>
+  <form action="/email/sendEmailOK" method="post">
+    수신자이메일: <input id="email_id" type="text" name="reciver" value="yujigwa@gmail.com"><br>
+    <input type="hidden" name="password" > <!-- hidden 필드는 AJAX로 동적으로 값 설정 -->
+    <input type="hidden" name="subject" value="[알림]: 현재 비밀번호" >
+    <input type="submit" value="이메일 전송">
+  </form>
+</div>
+</body>
+</html>

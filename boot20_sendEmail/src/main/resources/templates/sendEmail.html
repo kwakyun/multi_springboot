@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body th:replace="~{layout::layout}">
+<div th:fragment="content">
+  <h1>home.html</h1>
+  <form action="/sendEmailOK" method="post">
+    수신자이메일:<input type="text" name="reciver" value="dbswlrahs@gmail.com"><br>
+    제목:<input type="text" name="subject" value="이메일 제목"><br>
+    내용:<textarea rows="5" cols="5" name="content">이메일 내용</textarea><br>
+    <input type="submit" value="이메일 전송">
+  </form>
+</div>
+</body>
+</html>

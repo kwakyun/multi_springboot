@@ -1,0 +1,82 @@
+body {
+    min-height: 100vh;
+    background: -webkit-gradient(linear, left bottom, right top, from(#cfff0f),
+    to(#ffffff));
+    background: -webkit-linear-gradient(bottom left, #cfff0f 0%, #ffffff 100%);
+    background: -moz-linear-gradient(bottom left, #cfff0f 0%, #ffffff 100%);
+    background: -o-linear-gradient(bottom left, #cfff0f 0%, #ffffff 100%);
+    background: linear-gradient(to top right, #cfff0f 0%, #ffffff 100%);
+    padding: 30px;
+
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#search_form {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+input[type=text],
+input[type=password],
+input[type=tel]{
+    width: 90%;
+    padding: 8px 8px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #0f9805;
+    border-radius: 10px;
+}
+input[type=submit]{
+    width: 100%;
+    padding: 8px 8px;
+    margin: 8px 0px;
+    border-radius: 10px;
+    background-color: rgb(12, 135, 133);
+    color: azure;
+}
+input[type=submit]:hover{
+    background-color: rgb(39, 78, 0);
+}
+select {
+    width: 150px;
+    padding: 5px;
+    border: 0 !important;
+    background-color: lightblue;
+    /* needed */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* SVG background image */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-size: .6em;
+    background-position: calc(100% - 1.3em) center;
+    background-repeat: no-repeat;
+}
+select::-ms-expand {
+    display: none;
+}
+a:hover{
+    background-color: bisque;
+}

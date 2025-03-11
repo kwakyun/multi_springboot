@@ -1,4 +1,4 @@
-package org.example.boot14_mybatis_fileupload;
+package org.example.boot19_aop;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,4 +21,4 @@ public class FileWebConfig implements WebMvcConfigurer {
         log.info("realPath : {}",realPath);
         registry.addResourceHandler(connectPath).addResourceLocations("file:///"+realPath);
     }
-}//end class
+}

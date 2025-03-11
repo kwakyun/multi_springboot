@@ -10,8 +10,12 @@
   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d69136008e296bf0e590295af232abcc"></script>
   <script type="text/javascript" th:src="@{/js/kakaoApi.js}"></script>
 
-  <script>
+  <script th:inline="javascript">
     $(document).ready(function(){
+      // Thymeleaf 변수를 JavaScript 변수로 안전하게 가져오기
+      var address = /*[[${vo2 != null ? vo2.address : ''}]]*/ '';
+      var title = /*[[${vo2 != null ? vo2.title : ''}]]*/ '';
+
       var container = document.getElementById('kakaoMap'); //지도를 담을 영역의 DOM 레퍼런스
       var options = { //지도를 생성할 때 필요한 기본 옵션
         center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
@@ -19,40 +23,59 @@
       };
       var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
 
-      $.ajax({
-        url: 'https://dapi.kakao.com/v2/local/search/address.json?query=[[${vo2.address}]]',
-        type: 'GET',
-        headers: {'Authorization': 'KakaoAK 218de383c68f7ee6a4c254ec31c1bd81'},
-        success: function(data) {
-          console.log(data);
-          // API 응답에서 좌표 추출
-          const placeLA = data.documents[0].y; // 위도
-          const placeLO = data.documents[0].x; // 경도
+      if(address) {
+        $.ajax({
+          url: 'https://dapi.kakao.com/v2/local/search/address.json?query=' + address,
+          type: 'GET',
+          headers: {'Authorization': 'KakaoAK 218de383c68f7ee6a4c254ec31c1bd81'},
+          success: function(data) {
+            console.log(data);
+            // API 응답에서 좌표 추출
+            const placeLA = data.documents[0].y; // 위도
+            const placeLO = data.documents[0].x; // 경도
 
-          // 카카오맵에 해당 좌표로 위치 설정
-          var markerLocation = new kakao.maps.LatLng(placeLA, placeLO);
-          map.setCenter(markerLocation); // 지도의 중심을 변경
-          var marker = new kakao.maps.Marker({
-            position: markerLocation
-          });
-          marker.setMap(map); // 마커를 지도에 표시
-        },
-        error: function(e) {
-          console.log(e);
-        }
-      });
+            // 카카오맵에 해당 좌표로 위치 설정
+            var markerLocation = new kakao.maps.LatLng(placeLA, placeLO);
+            map.setCenter(markerLocation); // 지도의 중심을 변경
+            var marker = new kakao.maps.Marker({
+              position: markerLocation
+            });
+            marker.setMap(map); // 마커를 지도에 표시
+          },
+          error: function(e) {
+            console.log(e);
+          }
+        });
+      }
 
+      if(title) {
+        $.ajax({
+          url: "/location_image/image",
+          type: "GET",
+          data: { title: title }, // vo2.title을 기반으로 이미지 요청
+          success: function (response) {
+            console.log("요청 성공:", response);
+            console.log("이미지 URL:", response.imageUrl);
+
+            // 이미지 URL을 <img> 태그에 적용
+            $("#dynamicImage").attr("src", response.imageUrl);
+          },
+          error: function (xhr, status, error) {
+            console.error("요청 실패:", error);
+          }
+        });
+      }
     });
-
-
   </script>
-
-
 </head>
 <body th:replace="~{layout::layout}">
 <div th:fragment="content">
   <h1>관광명소 상세 페이지</h1>
-  <table id="customers">
+  <div th:if="${vo2 == null}" class="alert alert-warning">
+    데이터를 찾을 수 없습니다. 관광명소 데이터가 존재하지 않습니다.
+  </div>
+
+  <table id="customers" th:if="${vo2 != null}">
     <thead>
     <tr>
       <th>no</th>
@@ -65,17 +88,23 @@
     </thead>
     <tbody>
     <tr>
-      <td>[[${vo2.no}]]</td>
-      <td>[[${vo2.district}]]</td>
-      <td>[[${vo2.title}]]</td>
-      <td>[[${vo2.description}]]</td>
-      <td>[[${vo2.address}]]</td>
-      <td>[[${vo2.phone}]]</td>
+      <td th:text="${vo2.no}"></td>
+      <td th:text="${vo2.district}"></td>
+      <td th:text="${vo2.title}"></td>
+      <td th:text="${vo2.description}"></td>
+      <td th:text="${vo2.address}"></td>
+      <td th:text="${vo2.phone}"></td>
     </tr>
     <tr>
       <td colspan="2">관광지 이미지</td>
       <td colspan="4">
-        <img th:src="|/uploadimgPath/${vo2.imgname}|" width="200" alt="">
+        <img id="dynamicImage" th:if="${imageUrl != null}" th:src="@{${imageUrl}}" width="200" alt="공공데이터 이미지">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">관광지관련 사진</td>
+      <td colspan="4">
+        <img th:if="${vo2.imgname != null}" th:src="|/uploadimgPath/${vo2.imgname}|" width="200" alt="">
       </td>
     </tr>
     <tr>
@@ -84,7 +113,6 @@
         <div id="kakaoMap" style="width:500px;height:400px;"></div>
       </td>
     </tr>
-
     </tbody>
     <tfoot>
     <tr>
@@ -95,9 +123,6 @@
     </tr>
     </tfoot>
   </table>
-
-
-
 </div>
 </body>
 </html>
